@@ -1,0 +1,3 @@
+Kompilator atau kompiler (Inggris: compiler) adalah sebuah program komputer yang berguna untuk menerjemahkan program komputer yang ditulis dalam bahasa pemrograman tertentu (bahasa asal) menjadi program yang ditulis dalam bahasa pemrograman lain (bahasa target).
+
+Terlepas dari pengertiannya yang demikian relatif luas, istilah kompilator biasa digunakan untuk program komputer yang menerjemahkan program yang ditulis dalam bahasa pemrograman tingkat tinggi (semacam bahasa Pascal, C++, BASIC, FORTRAN, Visual Basic, Visual C#, Java, xBase, atau COBOL) menjadi bahasa mesin, biasanya dengan bahasa Assembly sebagai perantara.
