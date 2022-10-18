@@ -1,7 +1,7 @@
-# Belajar-CPP-dasar
+# Belajar C++
 Belajar Bahasa Pemrograman Dasar C++ 
 
-Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md)
+Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan [Wikipedia](wiki.md)
 
 ## Apa itu C++ 
 
