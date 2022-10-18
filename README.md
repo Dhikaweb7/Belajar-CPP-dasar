@@ -14,3 +14,6 @@ Pada awal tahun 1970-an
 
 - [Text Editor / IDE](text.md)
 - [Kompiler](kompiler.md)
+
+Rekomendasi menggunakan :
+[Devc++](https://www.bloodshed.net/)
