@@ -9,3 +9,8 @@ Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md)
 C++ adalah bahasa pemrograman komputer yang dibuat oleh [Bjarne Stroustrup](bs.md), 
 yang merupakan perkembangan dari bahasa C yang dikembangkan di Bell Labs oleh [Dennis Ritchie](dr.md). 
 Pada awal tahun 1970-an
+
+## Alat yang dibutuhkan
+
+- [Text Editor / IDE](text.md)
+- [Kompiler](kompiler.md)
