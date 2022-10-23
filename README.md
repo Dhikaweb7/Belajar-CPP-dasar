@@ -227,3 +227,199 @@ int main()
 }
 
 ```
+
+## Komparasi Digital
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int a = 3;
+        int b = 2;
+
+        bool hasil;
+
+        // operator logika : not, and, or
+
+        // not
+        hasil = !(a == 3);
+
+        // and : kedua nilai benar untuk menghasilkan true
+
+        cout << "untuk and \n";
+        hasil = (a == 3) and (b == 2); // true and true
+        cout << hasil << endl;
+        hasil = (a == 4) and (b == 2); // false and true
+        cout << hasil << endl;
+        hasil = (a == 3) && (b == 3); // true and false
+        cout << hasil << endl;
+        hasil = (a == 4) && (b == 3); // false and false
+        cout << hasil << endl;
+
+        // or : salah satu nilai true maka hasil true
+        cout << "untuk or \n";
+        hasil = (a == 3) or (b == 2); // true and true
+        cout << hasil << endl;
+        hasil = (a == 4) or (b == 2); // false and true
+        cout << hasil << endl;
+        hasil = (a == 3) || (b == 3); // true and false
+        cout << hasil << endl;
+        hasil = (a == 4) || (b == 3); // false and false
+        cout << hasil << endl;
+
+
+        cin.get();
+        return 0;
+}
+
+```
+
+## IF Statement
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int a;
+
+        cout << "masukan angka = ";
+        cin >> a;
+
+        // if statement
+        // kondisi dalam bentuk boolean
+        if (a == 5)
+        {
+                cout << "halooo" << endl;
+        }
+
+        cout << "selesai" << endl;
+        cin.get();
+        return 0;
+}
+
+```
+
+## IF Else
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+        int a;
+
+        cout << "masukan angka = ";
+        cin >> a;
+
+        if (a == 5){
+                cout << "nilai ini adalah 5" << endl;
+        } else if (a == 3){
+                cout << "nilai ini adalah 3" << endl;
+        } else if (a == 1){                                       cout << "nilai ini adalah 1" << endl;
+        } else {
+                cout << "bukan 5,3, atau 1" << endl;
+        }
+
+        cout << "selesai" << endl;
+        cin.get();
+        return 0;
+}
+
+```
+
+## Switch Case
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int a;
+
+        cout << "masukan nilai = ";
+        cin >> a;
+
+        switch(a){
+                case 1:
+                        cout << "a = 1" << endl;
+                        break;
+                case 2:
+                        cout << "a = 2" << endl;
+                case 3:
+                        cout << "a = 3" << endl;
+                case 4:
+                        cout << "a = 4" << endl;
+                case 5:
+                        cout << "a = 5" << endl;
+                default:
+                        cout << "default" << endl;
+        }
+
+        cout << "akhir dari program" << endl;
+
+        return 0;
+}
+
+```
+
+## PROGRAM KALKULATOR 
+
+```c++ 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        float a,b,hasil;
+        char aritmatika;
+
+        cout << "Selamat datang di program calculator \n \n";
+
+        // memasukan input dari user
+        cout << "Masukan nilai pertama: ";
+        cin >> a;
+        cout << "Pilih operator +,-,/,*: ";
+        cin >> aritmatika;
+        cout << "Masukan nilai kedua: ";
+        cin >> b;
+
+        cout << "\nHasil perhitungan: ";
+        cout << a << aritmatika << b;
+
+        if (aritmatika == '+'){
+                hasil = a + b;
+        } else if (aritmatika == '-'){
+                hasil = a - b;
+        } else if (aritmatika == '/'){
+                hasil = a / b;
+        } else if (aritmatika == '*'){
+                hasil = a * b;
+        } else {
+                cout << "operator anda salah" << endl;
+        }
+
+        cout << " = " << hasil << endl;
+
+        cin.get();
+        return 0;
+}
+
+```
+
+
