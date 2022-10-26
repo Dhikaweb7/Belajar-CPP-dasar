@@ -40,7 +40,7 @@ Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 // X TKJ 1
 #include <iostream>
 int main(){
-       cout << "PROGRAM BERHASIL DI KOMPILE";
+       cout << "SMK RADEN PAKU";
        return 0;
        }
 
