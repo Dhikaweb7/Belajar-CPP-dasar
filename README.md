@@ -27,11 +27,12 @@ Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 
 ### Untuk Android bisa menggunakan beberapa aplikasi :
 
-[TERMUX](termux.md) 
+- [TERMUX](termux.md) 
 > untuk Termux perlu beberapa settingan untuk instalasi kompiler dan text editor
-
-[CXX](cxx.md) ( bisa digunakan langsung )
-
+- [CXX](cxx.md) ( bisa digunakan langsung )
+---
+#### [Proyek Program Sederhana dengan C++](proyek.md)
+> @xcyberone | TKJ 1 | SMK RADEN PAKU 
 ## Program Dasar C++
 
 ```c++
