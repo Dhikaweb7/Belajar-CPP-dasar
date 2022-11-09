@@ -39,6 +39,7 @@ Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 // Program mencetak teks ke layar
 // X TKJ 1
 #include <iostream>
+using namespace std;
 int main(){
        cout << "SMK RADEN PAKU";
        return 0;
