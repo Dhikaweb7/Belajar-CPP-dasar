@@ -6,7 +6,6 @@ Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan [Wikipedia](wiki.md
 
 ## Apa itu C++ 
 
-
 C++ adalah bahasa pemrograman komputer yang dibuat oleh [Bjarne Stroustrup](bs.md), 
 yang merupakan perkembangan dari bahasa C yang dikembangkan di Bell Labs oleh [Dennis Ritchie](dr.md). 
 Pada awal tahun 1970-an
@@ -52,6 +51,9 @@ int main(){
 ---
 
 ## CETAK KE LAYAR
+Untuk mencetak objek di c++ 
+, kita dapat menggunakan sintaks  `` cout `` , bersama dengan operator `` << `` , digunakan untuk menampilkan nilai/mencetak teks:
+
 
 ```c++ 
 
