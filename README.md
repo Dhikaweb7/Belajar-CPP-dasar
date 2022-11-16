@@ -177,10 +177,13 @@ using namespace std;
 
 int main(){
 
+        // Deklarasi Variabel
         int a = 6;
         int b = 4;
         int hasil;
+
         // operatornya +, -, *, /, %
+
         // penjumlahan
         hasil = a + b;
         cout << a << " + " << b << " = " << hasil << endl;
