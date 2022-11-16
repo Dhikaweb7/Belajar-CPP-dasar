@@ -89,11 +89,17 @@ Di C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci yang berbed
 using namespace std;
 int main(){
 
-        int a = 5;
+       int a = 5; 
+      
+        /*
+       ini variabel a di isi 
+       dengan angka 5
+       bertipe data integer / int  
+       */
 
-        cout << a << endl;
-        cin.get();
-        return 0;
+       cout << a << endl; // mencetak data dari variabel a
+       cin.get();
+       return 0;
 }
 
 ```
