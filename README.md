@@ -2,7 +2,7 @@
 Belajar Bahasa Pemrograman Dasar C++
 Mata pelajaran Pemrograman Dasar  kelas X
 
-Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan [Wikipedia](wiki.md)
+Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan [Wikipedia](https://en.m.wikipedia.org/wiki/C%2B%2B)
 
 ## Apa itu C++ 
 
