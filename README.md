@@ -52,8 +52,13 @@ Penjelasan mengenai program diatas :
 
 | Syntax | Fungsi |
 |   ---  |   ---  |
-|    #include <iostream>      | Memanggil file iostream di komputer dan menjadi komponen library standar di C++ |
-|  using namespace std; | Berfungsi mempersingkat syntax std |
+|    ``#include <iostream>``      | Memanggil file iostream di komputer dan menjadi komponen library standar di C++ |
+|  ``using namespace std;`` | Berfungsi mempersingkat syntax std |
+| ``int main(){ }`` | Berfungsi sebagai bada program yang kita buat |
+| ``cout << " ";`` | Berfungsi sebagai output |
+| ``cin >> ;`` | Berfungsi sebagai proses penerima data / input |
+| ``return 0;`` | Berfungsi sebagai akhir program |
+
 ---
 
 ## CETAK KE LAYAR
