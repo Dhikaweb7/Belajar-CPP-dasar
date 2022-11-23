@@ -48,6 +48,12 @@ int main(){
 
 ```
 
+Penjelasan mengenai program diatas :
+
+| Syntax | Fungsi |
+|   ---  |   ---  |
+|    #include <iostream>      | Memanggil file iostream di komputer dan menjadi komponen library standar di C++ |
+|  using namespace std; | Berfungsi mempersingkat syntax std |
 ---
 
 ## CETAK KE LAYAR
