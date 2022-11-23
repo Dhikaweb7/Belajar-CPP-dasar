@@ -84,8 +84,8 @@ int main(){
 
 ## Variabel
 Variabel adalah wadah untuk menyimpan nilai data.
-
-Di C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci yang berbeda), misalnya:
+Di C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci yang berbeda), dan didalam variabel terdapat 
+tipe data , bahasa C++ mempunyai 7 tipe data yaitu :
 
  | tipe data | Keterangan |
  | --- | --- |
@@ -93,10 +93,9 @@ Di C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci yang berbed
  | double | menyimpan angka floating point, dengan desimal, seperti 19,99 atau -19,99 |
  | char  |  menyimpan karakter tunggal, seperti 'a' atau 'B'. Nilai karakter dikelilingi oleh tanda kutip tunggal |
  | string |  menyimpan teks, seperti "Hello World". Nilai string dikelilingi oleh tanda kutip ganda |
- | boleean | menyimpan nilai dengan dua status: benar atau salah ( true / false , high / low ) |
- | Long |
- | Short |
- 
+ | boolean | menyimpan nilai dengan dua status: benar atau salah ( true / false , high / low ) |
+ | void | merupakan tipe data yang tidak bernilai dan tidak bertipe biasanya digunakan untuk data kosong |
+ | Wchar_t | adalah tipe data yang digunakan sama seperti char yang menyimpan karakter besar, biasanya digunakan untuk menyimpan karakter yang tidak ada di huruf abjad misalnya huruf japan, china, korea, dll. |
 
 ```c++
 
