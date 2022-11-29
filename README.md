@@ -106,18 +106,31 @@ tipe data , bahasa C++ mempunyai 7 tipe data yaitu :
 
 ```c++
 
-#include <iostream>
+#include <iostream> // panggil iostream
+#include <string> // panggil string
 using namespace std;
 int main(){
-
-       int a = 5; 
-      
+  // Deklarasi tipe data
+       int a = 5; // tipe data integer 
         /*
        ini variabel a di isi 
        dengan angka 5
        bertipe data integer / int  
        */
+        // bilangan bulat
+        unsigned int a = 5; // 32-bit
+        long b = 6;
+        short c = 7;
 
+        // bilangan decimal
+        float d = 1.0;
+        double e = 2.5;
+
+        // character
+        char f = 'a'; //character 1-bit
+
+        // boolean
+        bool g = true; // true/false
        cout << a << endl; // mencetak data dari variabel a
        cin.get();
        return 0;
