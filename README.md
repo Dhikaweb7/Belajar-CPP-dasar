@@ -20,7 +20,7 @@ Rekomendasi menggunakan tools :
 ### Untuk Laptop
 
 [Devc++](https://www.bloodshed.net/)
-
+---
 Dev-C++ adalah sebuah IDE (Integrated Development Environment) ``C / C++`` yang sudah dilengkapi dengan ``Compiler`` (bagian dari GNU Compiler Collection / GCC). 
 Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 
