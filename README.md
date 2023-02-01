@@ -1,8 +1,11 @@
 # Belajar C++
+---
+[ << Kembali ke beranda ](https://andhikaprttp.github.io)
+
 Belajar Bahasa Pemrograman Dasar C++
 Mata pelajaran Pemrograman Dasar  kelas X
 
-Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan [Wikipedia](https://en.m.wikipedia.org/wiki/C%2B%2B)
+> Sumber materi ini adalah [Kelas Terbuka 🌱](readme.md) dan beberapa website di indonesia [Petanikode](petanikode.md) serta [Wikipedia](https://en.m.wikipedia.org/wiki/C%2B%2B)
 
 ## Apa itu C++ 
 
@@ -19,8 +22,8 @@ Rekomendasi menggunakan tools :
 
 ### Untuk Laptop
 
-[Devc++](https://www.bloodshed.net/)
-
+[Dev C++](https://www.bloodshed.net/)
+---
 Dev-C++ adalah sebuah IDE (Integrated Development Environment) ``C / C++`` yang sudah dilengkapi dengan ``Compiler`` (bagian dari GNU Compiler Collection / GCC). 
 Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 
@@ -29,6 +32,14 @@ Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 - [TERMUX](termux.md) 
 > untuk Termux perlu beberapa settingan untuk instalasi kompiler dan text editor
 - [CXX](cxx.md) ( bisa digunakan langsung )
+
+
+---
+
+## Tugas Pak Erwin Progdas
+[klik disini](progdas.md)
+
+---
 
 ### Kompiler Online 
 Kalian juga dapat menggunakan compiler online , bagi yang ingin belajar C++ tanpa menginstall aplikasi / software, <b>Perlu Koneksi Internet</b>
@@ -606,5 +617,96 @@ int main()
 
 ```
 
+### Whileloops
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+        int a = 5;
+
+        while(a <= 10){
+                cout << "hore ";
+                cout << a << endl;
+                a += 1;
+        }
+
+        cout << "selesai" << endl;
+
+        cin.get();
+        return 0;
+}
+
+```
+
+### Dowhile 
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int a = 1;
+
+        do{
+                cout << "hore ";
+                cout << a << endl;
+                a++;
+        }while(a <= 10);
+
+        cout << "selesai" << endl;
+        cin.get();
+        return 0;
+}
+
+```
+
+### Forloops
+
+```c++
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+        cout << "Loop 1 \n";
+        for(int i = 1; i <= 10; i++){
+                cout << i << endl;
+        }
+
+        cout << "\n Loop2 \n";
+        for(int i = 1; i <= 10; i += 2 ){
+                cout << i << endl;
+        }
+
+        cout << "\n Loop3 \n";
+        for(int i = 1; i >= -10; i-- ){
+                cout << i << endl;
+        }
+
+        cout << "\n Loop4 \n";
+
+        int total = 0;
+        for(int i = 1; i <= 10; i++, total += i){
+                cout << i << " || " << total << endl;
+        }
+
+
+        return 0;
+}
+
+```
 
 
