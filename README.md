@@ -34,38 +34,12 @@ Dev-C++ merupakan IDE gratis dan full fitur untuk pemrograman ``C`` dan ``C++``
 - [CXX](cxx.md) ( bisa digunakan langsung )
 
 
+---
 
- Tugas Pak Erwin
-```c++
+## Tugas Pak Erwin Progdas
+[klik disini](progdas.md)
 
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
- cout << "##  Program C++ Angka Ganjil  ##" << endl;
- cout << "=====================================" << endl;
- cout << endl;
-
- int jumlah_deret,i;
-
- cout << "Jumlah deret yang diinginkan: ";
- cin >> jumlah_deret;
-
- for (i=1;i<=jumlah_deret;i++) {
-   cout << (i * 2) -1 << " ";
- }
-
- cout << endl;
- return 0;
-}
-
-```
-
-
-
-
+---
 
 ### Kompiler Online 
 Kalian juga dapat menggunakan compiler online , bagi yang ingin belajar C++ tanpa menginstall aplikasi / software, <b>Perlu Koneksi Internet</b>
